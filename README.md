@@ -5,32 +5,20 @@
 python
 
 class Soda:
-
     def init(self, additive=None):
     
         self.additive = additive
-
-
-def show_my_drink(self):
-
-    if self.additive:
     
-        print(f"Газировка и {self.additive}")
-        
-    else:
-    
-        print("Обычная газировка")
-
+    def show_my_drink(self):
+        if self.additive:
+            print(f"Газировка и {self.additive}")
+        else:
+            print("Обычная газировка")
 drink1 = Soda()
-
 drink2 = Soda('малина')
-
 drink3 = Soda(5)  # Добавка может быть любого типа
-
 drink1.show_my_drink()  # Вывод: Обычная газировка
-
 drink2.show_my_drink()  # Вывод: Газировка и малина
-
 drink3.show_my_drink()  # Вывод: Газировка и 5
 
 ## Уровень 2:
