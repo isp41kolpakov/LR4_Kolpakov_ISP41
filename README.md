@@ -5,6 +5,7 @@
 python
 
 class Soda:
+
     def init(self, additive=None):   
         self.additive = additive
     def show_my_drink(self):
