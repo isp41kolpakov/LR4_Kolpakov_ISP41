@@ -3,6 +3,7 @@
 ## Уровень 1.
 
 python
+
 class Soda:
     def init(self, additive=None):   
         self.additive = additive
